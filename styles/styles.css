@@ -1,0 +1,131 @@
+
+*{
+    margin: auto;
+}
+
+body{
+
+    margin: 0;
+    background-image: url("file:///C:/Users/Azim/Desktop/My%20project%20lesson/src/img/Rectangle3.svg");
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    top: 50%;
+    justify-content: center;
+    border:solid;
+    border-radius: 25px;
+    background-color: rgba(25, 24, 24, 0.8);
+    margin-top: 40px;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 10px 10px;
+    
+}
+
+.logo{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+
+.btn_orderCall{ 
+    
+   display: flex;
+    border-radius: 10px;
+    border:2px solid #F5A623;
+    background-color: transparent;
+    flex-direction: row !important;
+    /* padding: 2px 2px ; */
+    
+       
+}
+
+.btn_orderCall:hover{
+background-color: #F5A623;
+}
+
+
+.aOrderCall {
+    display: flex;
+    align-items: center;
+
+}
+
+a{
+    color: #ffffff !important;
+    text-decoration: none !important;     
+}
+
+a:hover{
+    opacity: .10;
+    
+}
+
+
+.blockWrapper{
+    /* max-width:1000px; */
+    height: 500px;    
+}
+
+.brand_make{
+    display: flex;
+    max-width: 900px;
+    height: 400px;
+    justify-content: center;
+}
+.vector1, .vector2, .vector3, .vector4{
+    margin: 10px 10px 10px 10px; 
+    max-width: 24px; 
+    height: 24px; 
+}
+.social_media_Wrapper{
+    margin: 0%;
+    margin-left: 30px;
+    border: solid;
+    max-width: 45px; 
+    height: 190px;  
+    background-color: rgba(25, 24, 24, 0.8);
+    border-radius: 10px;
+
+}
+
+.title1{
+    max-width: 800px;
+    height: 400px;
+    color: #F5F5DC;
+    font-size: 15px;
+    margin-top: 1px;
+}
+
+
+    
+    
+    
+    
+
+
+/* .block{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 48px;
+    justify-content: space-between; 
+}
+
+.block:hover{
+ background-color: rgb(226, 9, 219);
+} */
+
