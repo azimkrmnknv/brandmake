@@ -63,14 +63,55 @@ background-color: #F5A623;
 
 }
 
+.aOrderCall_2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.btn_orderCall_2{ 
+    
+    position: relative;
+    top: 20px;
+     border-radius: 10px;
+     border:2px solid #F5A623;
+     background-color: transparent;
+     flex-direction: row !important;
+     padding: 8px 100px 8px 100px ;
+ }
+
+ .btn_orderCall_2:hover{
+    background-color: #F5A623;
+}
+
+.btn_catalogs{
+    position: relative;
+    top: 20px;
+     border-radius: 10px;
+     border:2px solid #F5A623;
+     background-color: transparent;
+     flex-direction: row !important;
+     padding: 8px 100px 8px 100px ;
+}
+
+
+    
+.p2{
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    
+}
+
+.p2 :hover{
+    color: black;
+}
+
+ 
+
 a{
     color: #ffffff !important;
     text-decoration: none !important;     
-}
-
-a:hover{
-    opacity: .10;
-    
 }
 
 
@@ -79,19 +120,45 @@ a:hover{
     height: 500px;    
 }
 
+.imgs{
+    display: flex;
+    
+    position: relative;
+    justify-content: center;
+  
+  
+}
+
 .brand_make{
     display: flex;
+    position: absolute;
+    
     max-width: 900px;
     height: 400px;
-    justify-content: center;
+    z-index: 1;
+    
 }
+
+.hudi_img{
+    display: flex;
+    position: relative;
+    left: 310px;
+    top: 210px;
+    max-width: 350px;
+    max-height: 450px;
+    z-index: 2;
+    
+}
+
 .vector1, .vector2, .vector3, .vector4{
     margin: 10px 10px 10px 10px; 
     max-width: 24px; 
     height: 24px; 
 }
 .social_media_Wrapper{
-    margin: 0%;
+    position: absolute;
+    top: 300px;
+    left: 10px;
     margin-left: 30px;
     border: solid;
     max-width: 45px; 
@@ -101,13 +168,38 @@ a:hover{
 
 }
 
-.title1{
-    max-width: 800px;
-    height: 400px;
+.h1_1{
+    
+    position: absolute;
+    top: 320px;
+    left: 280px;
+    z-index: 2;
+    max-width: 700px;
+    height: 300px;
     color: #F5F5DC;
-    font-size: 15px;
-    margin-top: 1px;
+    font-size: 20px;    
+
 }
+.p1{
+    margin-top: 15px;
+}
+
+/* table{
+    margin-top: 200px;
+    color: #F5F5DC;
+    padding: 8px;
+}
+td{
+    border: 1px solid;
+    color: #ffffff
+    
+}
+
+th{
+    border: 1px solid;
+    color: #ffffff;
+    padding: 8px;
+} */
 
 
     

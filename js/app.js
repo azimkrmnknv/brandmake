@@ -135,3 +135,20 @@ navbarContent.forEach(function(item) {
 
 //     blockWrapper.append(block)
 // })
+
+
+var tableObj = {
+    Quantity: ['5-10', '5-10','5-10', '5-10', '5-10', '5-10', '5-10', '5-10', '5-10'],
+    Price: ['2000 coм','2000 coм','2000 coм','2000 coм','2000 coм','2000 coм','2000 coм','2000 coм', '2000 coм' ]
+
+}
+
+var tableQuantity = document.querySelector(".tableQuantity")
+var tablePrice = document.querySelector(".tablePrice")
+
+tableObj.Quantity.forEach(function(item){
+    var tCell = document.createElement("td")
+    tCell.textContent = item
+    // console.log(tableQuantity,tCell )
+    tableQuantity.append(tCell)
+})
