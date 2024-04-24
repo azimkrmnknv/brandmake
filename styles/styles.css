@@ -1,13 +1,14 @@
 
 *{
     margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
 
     margin: 0;
     background-image: url("file:///C:/Users/Azim/Desktop/My%20project%20lesson/src/img/Rectangle3.svg");
-
+    
 }
 
 .container{
@@ -16,7 +17,7 @@ body{
     top: 50%;
     justify-content: center;
     border:solid;
-    border-radius: 25px;
+    border-radius: 16px;
     background-color: rgba(25, 24, 24, 0.8);
     margin-top: 40px;
   
@@ -42,7 +43,7 @@ body{
 
 .btn_orderCall{ 
     
-   display: flex;
+    display: flex;
     border-radius: 10px;
     border:2px solid #F5A623;
     background-color: transparent;
@@ -53,7 +54,7 @@ body{
 }
 
 .btn_orderCall:hover{
-background-color: #F5A623;
+    background-color: #F5A623;
 }
 
 
@@ -73,11 +74,11 @@ background-color: #F5A623;
     
     position: relative;
     top: 20px;
-     border-radius: 10px;
+     border-radius: 5px;
      border:2px solid #F5A623;
      background-color: transparent;
      flex-direction: row !important;
-     padding: 8px 100px 8px 100px ;
+     padding: 8px 100px 9px 100px ;
  }
 
  .btn_orderCall_2:hover{
@@ -85,13 +86,18 @@ background-color: #F5A623;
 }
 
 .btn_catalogs{
-    position: relative;
-    top: 20px;
-     border-radius: 10px;
+    
+     position: relative;
+     top: 16px;
+     border-radius: 5px;
      border:2px solid #F5A623;
      background-color: transparent;
-     flex-direction: row !important;
-     padding: 8px 100px 8px 100px ;
+     padding: 8px 50px 9px 50px ;
+     font-size: 20px;
+}
+
+.btn_catalogs:hover{
+    background-color: #F5A623;
 }
 
 
@@ -101,13 +107,12 @@ background-color: #F5A623;
     left: 20px;
     font-size: 20px;
     
+    
 }
 
 .p2 :hover{
     color: black;
 }
-
- 
 
 a{
     color: #ffffff !important;
@@ -130,9 +135,10 @@ a{
 }
 
 .brand_make{
+
     display: flex;
     position: absolute;
-    
+
     max-width: 900px;
     height: 400px;
     z-index: 1;
@@ -140,6 +146,7 @@ a{
 }
 
 .hudi_img{
+
     display: flex;
     position: relative;
     left: 310px;
@@ -151,15 +158,21 @@ a{
 }
 
 .vector1, .vector2, .vector3, .vector4{
+
     margin: 10px 10px 10px 10px; 
     max-width: 24px; 
     height: 24px; 
+ 
 }
+
 .social_media_Wrapper{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     position: absolute;
-    top: 300px;
-    left: 10px;
-    margin-left: 30px;
+    top: 400px;
+    left: 20px;
     border: solid;
     max-width: 45px; 
     height: 190px;  
@@ -169,7 +182,7 @@ a{
 }
 
 .h1_1{
-    
+
     position: absolute;
     top: 320px;
     left: 280px;
@@ -177,11 +190,14 @@ a{
     max-width: 700px;
     height: 300px;
     color: #F5F5DC;
-    font-size: 20px;    
+    font-size: 20px;   
 
 }
+
 .p1{
+
     margin-top: 15px;
+
 }
 
 /* table{
